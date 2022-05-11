@@ -1,0 +1,7 @@
+helpers.py
+model.py
+.cache-lizvcespedes
+.cache
+.idea
+__pycache__
+data
