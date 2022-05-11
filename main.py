@@ -48,10 +48,10 @@ async def recommend_song_by_mood(ctx, mood):
     if mood_upper == 'HAPPY':
         songs_by_mood = get_songs_by_mood(mood_upper)
         await send_random_song(ctx, songs_by_mood, mood_upper)
-    if mood_upper == 'SAD':
+    elif mood_upper == 'SAD':
         songs_by_mood = get_songs_by_mood(mood_upper)
         await send_random_song(ctx, songs_by_mood, mood_upper)
-    if mood_upper == 'ENERGETIC':
+    elif mood_upper == 'ENERGETIC':
         songs_by_mood = get_songs_by_mood(mood_upper)
         await send_random_song(ctx, songs_by_mood, mood_upper)
     else:
